@@ -1,0 +1,13 @@
+{
+  "name": "exec2markdown",
+  "version": "0.0.1",
+  "description": "consumes different types of languages, executes them and produces markdown",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "INOVA IT d.o.o.",
+  "license": "ISC",
+  "dependencies": {}
+}
