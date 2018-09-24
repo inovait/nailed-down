@@ -34,6 +34,8 @@ async function main() {
     const finalMarkdown = await execute(`${readPrefix}${mdPath}`);
     fs.writeFileSync(`${writePrefix}${mdPath}`, finalMarkdown, 'utf8');
   }
+  //any open shells (spawned childs) will be forced to close. Otherwise the nailed-down process might stay stucked!
+  process.exit(0);
 }
 main();
 
