@@ -1,6 +1,6 @@
 {
-  "name": "exec2markdown",
-  "version": "0.0.1",
+  "name": "nailed-down",
+  "version": "0.0.2",
   "description": "consumes different types of languages, executes them and produces markdown",
   "main": "index.js",
   "scripts": {
