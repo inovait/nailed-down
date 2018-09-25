@@ -6,7 +6,6 @@ async function execute(markdownPath) {
   process.on('stdErr', log => console.error(log.stdErr));
   process.on('stdOut', log => console.log(log.stdOut));
   const exitCode = await promiseProcessExit;
-  process.removeAllListeners();
   console.log('Exit code: ', exitCode);
   return `${markdownText}\n\n${produceMarkdownFromExecutedProcess(process)}`;
 }
